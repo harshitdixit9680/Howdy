@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Website with a contact Form 01</title>
     <link rel="stylesheet" href="main.css">
+
     <!-- GOOGLE FONTs -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!-- FONT AWESOME -->
@@ -14,6 +15,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="index.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/custom.css"> -->
 </head>
 
 
@@ -30,53 +36,50 @@
             <div class="contact-form">
                 <!-- <h3>Contact us</h3> -->
                 <form action="">
-                    <p>
+                    <p class="tex">
                         <label>Name*</label>
                         <input type="text" name="fullname">
-                    </p>
-                    <p>
+                    </p >
+                    <p class = "same">
+                        <label>Mobile Phone*</label>
+                        <input type="number" placeholder="+1(123)456789" name="phone">
+                    </p >
+                    <p class = "same">
                         <label>Email*</label>
                         <input type="email" name="email">
                     </p>
-                    <p>
-                        <label>Skype Id/Whatshpp Id</label>
-                        <input type="tel" name="phone">
+                    <p class="tex1">
+                        <label>What are You Looking For*</label>
+                        <select style="color:white; background-color:  rgb(18 18 81); border: 1px solid rgb(231, 227, 227);" class="form-select sul" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </p >
+                    <p  class="block same" >
+                       <label>MESSAGE</label> 
+                        <textarea placeholder="Please Tell Us About Your Project Synposis" style="width: 134%;"  class="block1" name="message" rows="3"></textarea>
                     </p>
-                    <p>
-                        <label>Phone*</label>
-                        <input type="text" name="affair">
+                    <p class = "same block2">
+                        <label style="font-size: 30px;">Upload*</label>
+                        <input class="block3" type="file"   id="myFile" name="filename">
+                        
                     </p>
-                    <p class="block">
-                       <label>Message</label> 
-                        <textarea name="message" rows="3"></textarea>
-                    </p>
-                    
+                  
 
 
-                 
-                    <div class="inline sup" onclick="generate()">
-                        <i class="fas fa-sync"></i>
-                   
-                    <div id="image" class="inline set" aria-placeholder="djfdj" selectable="False">
-                    </div>
-
-
-
-
-
-
-                   
-                </div>
+<!--                    -->
               
                 </form>
                 <p class="superb">
-                    <label]></label>
+                    <label style="color:rgb(17, 205, 230); font-size: 20px;" > Input This Code : 7 9 3 A</label>
                     <input type="text" id="submit" placeholder="Enter Captcha" name="fullname">
                 </p>
                
                  <div class="block">
                     
-                        <a href="index.html"    class="paapu btn btn-outline-primary" >SEND MESSAGE ></a>
+                        <a href="index.html" style="background-color: white; color: black;     border-radius:34px"    class="paapu btn btn-outline-primary"   >SEND</a>
                     </div>
                 </a>
             </div>
