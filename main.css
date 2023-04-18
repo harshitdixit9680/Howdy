@@ -108,7 +108,7 @@
         .contact-form {
             background-color: rgb(18 18 81);
             /* margin-left: 618px; */
-            margin-top: -425px;
+            margin-top: -510px;
             padding-left: 610px;     }
         
         /* .contact-form form {
@@ -121,8 +121,8 @@
         }
         
         .contact-form form p {
-            margin: -9px;
-            padding: 0.8em;
+            margin: -15px;
+            padding: 1em;
             color: rgb(17, 205, 230);
             font-size: 22px;
         }
@@ -140,7 +140,7 @@
             border: none;
             background: none;
             outline: 0;
-            color: #000000;
+            color: white;
             border-bottom: 3px solid #878282;
         }
         
@@ -323,13 +323,13 @@
         }
         
         .check{
-            color: #fff;
-            /* float: left; */
-            font-size: 3rem;
-            /* top: 10vh; */
-            margin-left: 174px;
-            padding-top: 87px;
-            position: relative;
+          color: #fff;
+    /* float: left; */
+    font-size: 3rem;
+    /* top: 10vh; */
+    margin-left: 174px;
+    padding-top: 87px;
+    
         }
         .check1{
             color: #fff;
@@ -403,4 +403,8 @@ form {
 }
 .block3{
     margin-top: 49px;
+}
+
+.same{
+    width: 52%;
 }
